@@ -19,7 +19,7 @@
 var chart;
 var bynames = [ "count", "fee", "weight" ];
 var byindex = [ 0, 2, 1 ];
-var classes = [ "btc", "bch", "ltc", "dash", "doge", "eth" ];
+var classes = [ "btc", "bch", "dash" ];
 var currentby = 0;
 var config = [
     {"name":"BTC",
