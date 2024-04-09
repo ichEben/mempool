@@ -26,7 +26,7 @@ var config = [
      "classname": "btc",
      "donatebutton": true,
      "title":"Bitcoin Core 25.0.0.  Huge mempool limit and no timeout, to prevent any transactions to be dropped.",
-     "url":"https://johoe.jochen-hoenicke.de/queue/",
+     "url":"https://btc.reichster.de/queue/",
      "sizeunit":"vMB",
      "priceunit":"sat/vB",
      "symbol":"BTC",
@@ -47,7 +47,7 @@ var config = [
     {"name":"BTC (default mempool)",
      "classname": "btc",
      "title":"Bitcoin Core 26.0 with default mempool settings (300 MB + 14 days timeout).",
-     "url":"https://electrum.jochen-hoenicke.de/btc/",
+     "url":"https://btc.reichster.de/queue/",
      "sizeunit":"vMB",
      "priceunit":"sat/vB",
      "symbol":"BTC",
@@ -65,7 +65,7 @@ var config = [
    "#000000"
              ],
      "inc": true},
-    {"name":"ETH",
+    /*{"name":"ETH",
      "classname":"eth",
      "donatebutton": true,
      "title":"geth 1.13.5 with 150k slots",
@@ -86,7 +86,7 @@ var config = [
 //   "#800080", "#ac00ac", "#d800d8", "#ff00ff", "#ff2cff", "#ff58ff", "#ff80ff",
    "#000000"
              ],
-     "inc": true},
+     "inc": true},*/
     /*{"name":"ETH-backup",
      "classname":"eth",
      "title":"geth 1.10.26 with 150k slots",
@@ -112,7 +112,7 @@ var config = [
      "classname": "bch",
      "donatebutton": true,
      "title":"Bitcoin Cash - BCHN 26.1.0.",
-     "url":"https://johoe.jochen-hoenicke.de/queue/cash/",
+     "url":"https://bch.reichster.de/queue/cash/",
      "sizeunit":"MB",
      "priceunit":"sat/B",
      "symbol":"BCH",
@@ -153,7 +153,7 @@ var config = [
    "#000000"
              ],
       "inc": true},*/
-    {"name":"DOGE",
+    /*{"name":"DOGE",
      "classname": "doge",
      "donatebutton": true,
      "title":"Dogecoin 1.14.6",
@@ -170,12 +170,12 @@ var config = [
    "#535154", "#400080", "#5600ac", "#6100c2", "#6c00d8", "#7600ec", "#7f00ff", "#9020ff",
    "#c040ff", "#0000ac", "#0000c2", "#0000d8", "#0000ec", "#0000ff", "#2c2cff", "#5858ff", "#8080ff",
    "#008000", "#00a000", "#00c000", "#00e000", "#30e030", "#60e060", "#90e090",
-   "#808000", "#989800", "#b0b000", /*"#c8c800", "#e0e000", "#e0e030",*/ "#e0e060",
+   "#808000", "#989800", "#b0b000", /*"#c8c800", "#e0e000", "#e0e030", "#e0e060",
 //   "#800000", "#a00000", "#c00000", "#e00000", "#e02020", "#e04040", "#e06060",
 //   "#800080", "#ac00ac", "#d800d8", "#ff00ff", "#ff2cff", "#ff58ff", "#ff80ff",
    "#000000"],
-     "inc": true},
-    {"name":"LTC",
+     "inc": true},*/
+    /*{"name":"LTC",
      "classname": "ltc",
      "donatebutton": true,
      "title":"Litecoin Core 0.21.2.2",
@@ -197,12 +197,12 @@ var config = [
 //   "#800080", "#ac00ac", "#d800d8", "#ff00ff", "#ff2cff", "#ff58ff", "#ff80ff",
    "#000000"
                 ],
-     "inc": true}, 
+     "inc": true}, */
     {"name":"DASH",
      "classname": "dash",
      "donatebutton": true,
      "title":"Dash Core v20.0.2 with default memory limit",
-     "url":"https://johoe.jochen-hoenicke.de/queue/dash/",
+     "url":"https://bch.reichster.de/queue/dash/",
      "sizeunit":"MB",
      "priceunit":"Duff/B",
      "symbol":"DASH",
@@ -473,7 +473,7 @@ function setupChart() {
                 steps: false
             },
         },
-        watermark: { mode: "text", order: "background", position: "ne", text: "mempool.jhoenicke.de", font: "30px Arial" },
+        watermark: { mode: "text", order: "background", position: "ne", text: "mempool.reichster.de", font: "30px Arial" },
         selection: { mode: "x" },
         xaxis: { mode: "time", timezone: "browser" },
         legend: { container: legendDiv, sorted: "reverse", noColumns: legendColumns,
