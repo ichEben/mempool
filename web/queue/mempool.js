@@ -19,7 +19,7 @@
 var chart;
 var bynames = [ "count", "fee", "weight" ];
 var byindex = [ 0, 2, 1 ];
-var classes = [ "btc", "bch", "dash" ];
+var classes = [ "btc", "bch", "dash", "xmr" ];
 var currentby = 0;
 var config = [
     {"name":"BTC",
@@ -130,6 +130,28 @@ var config = [
 //   "#800080", "#ac00ac", "#d800d8", "#ff00ff", "#ff2cff", "#ff58ff", "#ff80ff",
    "#000000" ],
      "inc": true},
+     {"name":"XMR",
+     "classname": "xmr",
+     "donatebutton": true,
+     "title":"Monero 0.18.3.3",
+     "url":"https://btc.reichster.de/queue_monero/",
+     "sizeunit":"MB",
+     "priceunit":"Nanonero/B",
+     "symbol":"XMR",
+     "satPerUnit": 1000000000000.0,
+     "feelevel": 1,
+     "lastfeelevel": 1,
+     "ranges": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 17, 20, 25, 30, 40, 50, 60, 70, 80, 100, 120, 140, 170, 200, 250, 300, 400, 500, 600, 700, 800, 1000, 1200, 1400, 1700, 2000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 10000 ],
+     "show":   [ 0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,22,23,24, 25, 27, 29, 31, 33, 35, 37 ],
+     "colors": [
+   "#535154", "#808080", "#000080", "#0000a0", "#0000c0", "#0000ff", "#2c2cff", "#5858ff", "#8080ff",
+   "#008000", "#00a000", "#00c000", "#00e000", "#30e030", "#60e060", "#90e090",
+   "#808000", "#989800", "#b0b000", "#c8c800", "#e0e000", "#e0e030", "#e0e060",
+   "#800000", "#a00000", "#c00000", "#e00000", "#e02020", "#e04040", //"#e06060",
+   //"#800080", "#ac00ac", "#d800d8", "#ff00ff", "#ff2cff", "#ff58ff", "#ff80ff",
+   "#000000"
+             ],
+      "inc": true},
 /*
     {"name":"BSV",
      "classname": "bsv",
